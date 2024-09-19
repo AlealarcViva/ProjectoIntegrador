@@ -1,4 +1,4 @@
-# ProjectoIntegrador
+# Proyecto Integrador
 #### Contenido:
 * Descripción del proyecto: Breve introducción sobre el objetivo de la aplicación.
 * Características: Lista de las principales funcionalidades de la aplicación.
