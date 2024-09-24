@@ -1,102 +1,185 @@
-# Proyecto Integrador
-#### Contenido:
-* Descripción del proyecto: Breve introducción sobre el objetivo de la aplicación.
-* Características: Lista de las principales funcionalidades de la aplicación.
-* Tecnologías utilizadas: Backend (Spring Boot/Java), Frontend (Angular/React), Base de datos (MySQL/MongoDB).
-* Prerrequisitos: Herramientas y software necesarios para ejecutar el proyecto.
-* Guía de instalación: Pasos para clonar el proyecto, instalar dependencias y ejecutar la aplicación.
+# Diseño de una aplicacion web para la empresa Pizarras Elenita
+Contexto:  
+1\. **Introducción:**  
+   *Objetivo:*
 
-### Descripcion del proyecto 
->Esta aplicación web permite a los usuarios buscar, seleccionar y comprar pizarras en línea,
-además de ofrecer una gestión interna de inventarios y pedidos. La aplicación está desarrollada
-utilizando Spring Boot con Java para el backend y html para el frontend.
+1. Objetivo General
 
-### Caracteristicas: 
-#### Características Generales
-* **Interfaz de Usuario Intuitiva:** Diseño fácil de usar, con navegación fluida y acceso rápido a las funcionalidades principales.
-* **Responsividad:** Adaptación automática a diferentes tamaños de pantalla (dispositivos móviles, tablets, computadoras).
-* **Seguridad:** Autenticación mediante JWT para usuarios y empleados, cifrado de contraseñas y validación de entradas para prevenir vulnerabilidades.
+      \> Desarrollo de un aplicativo web para la automatización de venta en línea y gestión de catálogo para la empresa Pizarras Elenita. 
 
-#### Características para Clientes (Usuarios Finales)
-1. _Catálogo de Productos:_
+2. *Objetivos Específicos*   
+* Implementar un sistema de gestión de usuarios que permita a los administradores y clientes de Pizarras Elenita acceder al aplicativo web al igual que permitir el registro de usuarios nuevos.  
+* Diseñar una interfaz intuitiva y fácil de usar que permita a los usuarios realizar pedidos de productos de manera eficiente, con opciones de búsqueda y filtrado para encontrar rápidamente los productos deseados.  
+* Integrar un sistema de carrito de compras que permita a los administradores agregar, modificar y eliminar productos antes de confirmar sus pedidos, con la capacidad de guardar carritos para compras futuras.
 
-* Vista de los productos disponibles con imágenes, precios y descripciones.
-* Filtros de búsqueda por tipo de pizarra (tamaño, material, precio, etc.).
-* Paginación para facilitar la navegación en catálogos grandes.
-  
-2. _Carrito de Compras:_
+  *Alcance:*
 
-* Capacidad para añadir productos al carrito desde la página de productos.
-* Visualización del carrito con los productos seleccionados, precios individuales y totales.
-* Posibilidad de actualizar cantidades o eliminar productos del carrito.
+- Sistema de gestión de usuarios: Desarrollar un sistema de gestión de usuarios que permita la creación de cuentas para administradores y clientes.  
+- Catálogo de productos: Crear un catálogo en línea que muestre todos los productos disponibles en el inventario de Pizarras Acrílicas, con descripciones detalladas, imágenes y precios actualizados.  
+- Carrito de compras: Implementar un sistema de carrito de compras que permita a los usuarios agregar productos, modificar cantidades y eliminar artículos antes de finalizar sus pedidos.  
+- Proceso de compra: Desarrollar un proceso de compra fluido y seguro que incluya pasos para seleccionar productos, ingresar información de envío y facturación, y confirmar los pedidos.
 
-3. _Sistema de Pago:_
+    *Contexto:*  
+\> El mercado objetivo de la aplicación web de venta de pizarras está compuesto principalmente por estudiantes, profesores, oficinas, pequeños negocios y aficionados a la planificación y organización visual. Este segmento incluye tanto usuarios individuales como corporativos que buscan pizarras para uso personal, educativo y profesional, con una demanda constante a lo largo del año debido a las necesidades de planificación y comunicación en diversos entornos.
 
-* Integración con pasarelas de pago (PayPal, Stripe, etc.).
-* Opciones de pago con tarjetas de crédito/débito o transferencia bancaria.
-* Confirmación de compra con detalles del pedido y notificación por correo electrónico.
+\> En cuanto a los competidores, la empresa se enfrenta a tiendas físicas tradicionales y plataformas de comercio electrónico que también ofrecen pizarras y materiales de oficina, como Amazon, Staples y Office Depot. Sin embargo, nuestra propuesta se diferencia al centrarnos en una experiencia personalizada, simplificada y con una interfaz amigable, diseñada para facilitar la búsqueda y compra de productos especializados, garantizando al mismo tiempo una gestión eficiente del inventario y un servicio al cliente de alta calidad.
 
-4. _Historial de Compras:_
+2\.  **Requisitos:**  
+   2.1 *Requerimientos funcionales*
 
-* Listado de pedidos anteriores con fechas, productos adquiridos y estado de entrega.
-* Posibilidad de volver a comprar productos previos con un clic.
-* Reseñas y Valoraciones de Productos:
-  * Sistema para que los clientes valoren los productos y dejen comentarios.
-  * Calificaciones con estrellas y reseñas para ayudar a otros usuarios a decidirse por productos.
-  * Soporte al Cliente en Línea:
+1. *Gestión de Usuarios:*
 
-5. _Gestión de Pedidos:_
+   \- Registro de nuevos usuarios.
 
-* Vista de los pedidos realizados por los clientes con detalles completos (productos, cantidades, datos de envío).
-* Actualización del estado del pedido (procesando, enviado, entregado, etc.).
-* Opción para cancelar o modificar pedidos bajo ciertas condiciones.
+   \- Inicio de sesión con autenticación segura (correo y contraseña).
 
-6. _Generación de Informes:_
+   \- Recuperación de contraseña (mediante correo electrónico).
 
-* Creación de informes de ventas por producto, por periodo de tiempo, por cliente, etc.
-* Visualización de estadísticas de ventas en tiempo real o por rangos específicos.
+   \- Gestión de perfiles de usuario (actualización de información personal, foto de perfil).
 
-#### Características para Administradores
+   \- Asignación de roles (administrador, usuario estándar).
 
-1. _Gestión de Usuarios:_
+2. *Catálogo de Productos:*
 
-* Creación, modificación y eliminación de cuentas de clientes y empleados.
-* Asignación de roles (cliente, empleado, administrador) con diferentes niveles de permisos.
-* Gestión de permisos y acceso a ciertas funcionalidades del sistema.
+   \- Visualización de productos con detalles (nombre, descripción, precio, imágenes).
 
-2. _Gestión de Productos:_
+   \- Filtros de búsqueda y categorías (por tipo de pizarra, precio, disponibilidad).
 
-* Capacidad para añadir, editar o eliminar productos del catálogo.
-* Asignación de categorías, precios, descripciones y atributos a cada producto.
-* Gestión de imágenes y galerías de productos.
-  
-3. _Descuentos y Promociones:_
+   \- Comparación de productos.
 
-* Creación de códigos promocionales o descuentos por tiempo limitado.
-* Gestión de ofertas especiales o descuentos por cantidad de compra.
+   \- Valoración y comentarios de productos por parte de los usuarios.
 
-4. _Panel de Control y Estadísticas:_
+3. *Carrito de Compras:*
 
-* Tablero con estadísticas clave (número de ventas, productos más vendidos, ingresos diarios/semanales/mensuales).
-* Visualización gráfica de las métricas de rendimiento del negocio.
+   \- Añadir y eliminar productos del carrito.
 
-5. Gestión de Comentarios y Reseñas:
+   \- Actualización de la cantidad de productos en el carrito.
 
-* Capacidad para moderar o eliminar comentarios inapropiados o que no cumplan las políticas de la tienda.
-* Respuesta a las reseñas de los usuarios para mejorar la relación con los clientes.
+   \- Visualización del resumen del carrito con precios totales.
 
-### Características Adicionales
+   \- Aplicación de cupones o descuentos.
 
-1. Sistema de Notificaciones:
+   \- Proceso de pago (checkout).
 
-* Notificaciones por correo electrónico o SMS para actualizaciones de pedidos, ofertas especiales o novedades de productos.
-* Recordatorios de productos abandonados en el carrito de compras.
+4. *Procesamiento de Pagos:*
 
+   \- Integración con pasarelas de pago (PayPal, tarjetas de crédito/débito).
 
+   \- Confirmación y notificación de pagos exitosos.
 
-Tecnologías para Implementar las Características
-Backend: Spring Boot (Java), manejando la lógica de negocio, autenticación y gestión de API.
-Frontend: Angular o React para una interfaz moderna, con diseño responsivo.
-Base de Datos: MySQL o MongoDB para almacenamiento de datos.
-Pasarelas de Pago: Integración con API de PayPal o Stripe.
-API de Notificaciones: Twilio (para SMS) o SendGrid (para correos electrónicos).
+   \- Generación de facturas electrónicas y recibos.
+
+5. *Gestión de Pedidos:*
+
+   \- Visualización del historial de pedidos.
+
+   \- Seguimiento de pedidos en tiempo real (estado del pedido, número de seguimiento).
+
+   \- Cancelación de pedidos antes de la confirmación del envío.
+
+   \- Notificaciones por correo electrónico para actualizaciones de estado de pedidos.
+
+6. *Panel de Administración:*
+
+   \- Gestión de productos (añadir, editar, eliminar).
+
+   \- Gestión de usuarios y roles.
+
+   \- Visualización y gestión de pedidos.
+
+   \- Generación de reportes (ventas, usuarios, productos más vendidos).
+
+   \- Configuración del sitio (política de privacidad, términos y condiciones).
+
+7. *Soporte y Contacto:*
+
+   \- Formulario de contacto.
+
+   \- Chat en vivo para soporte.
+
+   \- Sección de preguntas frecuentes (FAQ).
+
+   \- Sistema de tickets para incidencias o consultas.
+
+2.2  *Requerimientos no funcionales*
+
+1. *Seguridad:*
+
+   \- Autenticación y autorización seguras.
+
+   \- Encriptación de datos sensibles (contraseñas, información de pago).
+
+2. *Rendimiento:*
+
+   \- Respuesta del servidor en menos de un minuto para la mayoría de las solicitudes.
+
+   \- Soporte para un alto número de usuarios concurrentes.
+
+   \- Carga rápida de páginas e imágenes.
+
+3. *Usabilidad:*
+
+   \- Diseño responsivo para dispositivos móviles y tabletas.
+
+   \- Interfaz de usuario intuitiva y fácil de navegar.
+
+   \- Cumplimiento de estándares de accesibilidad (WCAG 2.1).
+
+4. *Mantenimiento:*
+
+   \- Facilidad para actualizar y mantener el código.
+
+   \- Registro de errores y monitoreo continuo.
+
+   \- Documentación detallada del código y la arquitectura.
+
+5. *Disponibilidad y Confiabilidad:*
+
+   \- Tasa de disponibilidad del 99.9%.
+
+   \- Copias de seguridad diarias automáticas.
+
+6. *Compatibilidad:*
+
+   \- Soporte para navegadores modernos (Chrome, Firefox, Safari, Edge).
+
+   \- Compatibilidad con diferentes sistemas operativos.
+
+   **Diagramas de casos de uso:  Visualizar la interacción entre los usuarios y el sistema.**
+
+3\.  Diseño:  
+   Arquitectura:  Describir la estructura general de la aplicación (modelo cliente-servidor, tecnologías utilizadas, etc.).  
+   Diagrama de clases:  Modelar las entidades y sus relaciones.  
+   Diseño de la interfaz de usuario:  Presentar wireframes o prototipos.  
+   Base de datos:  Explicar la estructura de la base de datos (tablas, relaciones, índices).
+![Base de datos](imagen/basededatos.png)
+
+4\.  **Desarrollo:**  
+ *Tecnologías:*
+
+* Backend: Java, manejando la lógica de negocio, autenticación y gestión de API.  
+* Frontend: Angular o React para una interfaz moderna, con diseño responsivo.  
+* Base de Datos: MySQL o Oracle para almacenamiento de datos.  
+* Pasarelas de Pago: Integración con API de PayPal o Stripe.  
+* 
+
+   Implementación: Explicar cómo se implementan las funcionalidades (código, algoritmos).  
+   Pruebas unitarias: Describir las pruebas realizadas a cada componente.
+
+5\.  Pruebas:  
+   Pruebas de integración: Verificar la interacción entre los diferentes componentes.  
+   Pruebas de usuario: Evaluar la usabilidad y la experiencia del usuario.  
+   Resultados de las pruebas: Presentar los resultados de forma clara y concisa.
+
+6\.  Implementación y despliegue:  
+   Entorno de producción: Describir el entorno donde se ejecuta la aplicación.  
+   Proceso de despliegue: Explicar cómo se despliega la aplicación.
+
+7\.  Mantenimiento:  
+   Plan de mantenimiento: Describir las actividades de mantenimiento (actualizaciones, correcciones de errores).  
+   Documentación: Explicar la documentación generada (manuales de usuario, guías de desarrollo).
+
+8\.  Conclusiones:  
+    Resumen de los logros: Resaltar los principales logros del proyecto.  
+    Lecciones aprendidas: Compartir las lecciones aprendidas durante el desarrollo.  
+   Trabajos futuros: Proponer mejoras o nuevas funcionalidades.
