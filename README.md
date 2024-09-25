@@ -1,5 +1,5 @@
 # Diseño de una aplicacion web para la empresa Pizarras Elenita
-Contexto:  
+ 
 1\. **Introducción:**  
    *Objetivo:*
 
@@ -148,11 +148,10 @@ Contexto:
    **Diagramas de casos de uso:  Visualizar la interacción entre los usuarios y el sistema.**
 
 3\.  Diseño:  
-   Arquitectura:  Describir la estructura general de la aplicación (modelo cliente-servidor, tecnologías utilizadas, etc.).  
-   Diagrama de clases:  Modelar las entidades y sus relaciones.  
-   Diseño de la interfaz de usuario:  Presentar wireframes o prototipos.  
-   Base de datos:  Explicar la estructura de la base de datos (tablas, relaciones, índices).
-![Base de datos](imagen/basededatos.png)
+   * Arquitectura:  Describir la estructura general de la aplicación (modelo cliente-servidor, tecnologías utilizadas, etc.).  
+   * Diagrama de clases: 
+   ![Base de clases](basededatos.png)
+   * Diseño de la interfaz de usuario:  Presentar wireframes o prototipos.  
 
 4\.  **Desarrollo:**  
  *Tecnologías:*
@@ -161,7 +160,7 @@ Contexto:
 * Frontend: Angular o React para una interfaz moderna, con diseño responsivo.  
 * Base de Datos: MySQL o Oracle para almacenamiento de datos.  
 * Pasarelas de Pago: Integración con API de PayPal o Stripe.  
-* 
+  
 
    Implementación: Explicar cómo se implementan las funcionalidades (código, algoritmos).  
    Pruebas unitarias: Describir las pruebas realizadas a cada componente.
