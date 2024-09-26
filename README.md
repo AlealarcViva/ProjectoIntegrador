@@ -5,7 +5,7 @@
 
 1. Objetivo General
 
-      \> Desarrollo de un aplicativo web para la automatización de venta en línea y gestión de catálogo para la empresa Pizarras Elenita. 
+      > Desarrollo de un aplicativo web para la automatización de venta en línea y gestión de catálogo para la empresa Pizarras Elenita. 
 
 2. *Objetivos Específicos*   
 * Implementar un sistema de gestión de usuarios que permita a los administradores y clientes de Pizarras Elenita acceder al aplicativo web al igual que permitir el registro de usuarios nuevos.  
@@ -20,9 +20,9 @@
 - Proceso de compra: Desarrollar un proceso de compra fluido y seguro que incluya pasos para seleccionar productos, ingresar información de envío y facturación, y confirmar los pedidos.
 
     *Contexto:*  
-\> El mercado objetivo de la aplicación web de venta de pizarras está compuesto principalmente por estudiantes, profesores, oficinas, pequeños negocios y aficionados a la planificación y organización visual. Este segmento incluye tanto usuarios individuales como corporativos que buscan pizarras para uso personal, educativo y profesional, con una demanda constante a lo largo del año debido a las necesidades de planificación y comunicación en diversos entornos.
+> El mercado objetivo de la aplicación web de venta de pizarras está compuesto principalmente por estudiantes, profesores, oficinas, pequeños negocios y aficionados a la planificación y organización visual. Este segmento incluye tanto usuarios individuales como corporativos que buscan pizarras para uso personal, educativo y profesional, con una demanda constante a lo largo del año debido a las necesidades de planificación y comunicación en diversos entornos.
 
-\> En cuanto a los competidores, la empresa se enfrenta a tiendas físicas tradicionales y plataformas de comercio electrónico que también ofrecen pizarras y materiales de oficina, como Amazon, Staples y Office Depot. Sin embargo, nuestra propuesta se diferencia al centrarnos en una experiencia personalizada, simplificada y con una interfaz amigable, diseñada para facilitar la búsqueda y compra de productos especializados, garantizando al mismo tiempo una gestión eficiente del inventario y un servicio al cliente de alta calidad.
+> En cuanto a los competidores, la empresa se enfrenta a tiendas físicas tradicionales y plataformas de comercio electrónico que también ofrecen pizarras y materiales de oficina, como Amazon, Staples y Office Depot. Sin embargo, nuestra propuesta se diferencia al centrarnos en una experiencia personalizada, simplificada y con una interfaz amigable, diseñada para facilitar la búsqueda y compra de productos especializados, garantizando al mismo tiempo una gestión eficiente del inventario y un servicio al cliente de alta calidad.
 
 2\.  **Requisitos:**  
    2.1 *Requerimientos funcionales*
@@ -149,12 +149,12 @@
 
 3\.  Diseño:  
    * Diagrama de capas:
-     ![Base de capas](DiagramadeCapas.drawio)
-   * Diagrama de clases: 
-   ![Base de clases](basededatos.png)
-   * Diseño de la interfaz de usuario:  
      
-
+   ![Diagrama de capas](DiagramadeCapas.drawio.png)
+   * Diagrama de clases:
+     
+   ![Base de clases](basededatos.png)
+  
 4\.  **Desarrollo:**  
  *Tecnologías:*
 
