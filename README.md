@@ -148,10 +148,12 @@
    **Diagramas de casos de uso:  Visualizar la interacción entre los usuarios y el sistema.**
 
 3\.  Diseño:  
-   * Arquitectura:  Describir la estructura general de la aplicación (modelo cliente-servidor, tecnologías utilizadas, etc.).  
+   * Diagrama de capas:
+     ![Base de capas](DiagramadeCapas.drawio)
    * Diagrama de clases: 
    ![Base de clases](basededatos.png)
-   * Diseño de la interfaz de usuario:  Presentar wireframes o prototipos.  
+   * Diseño de la interfaz de usuario:  
+     
 
 4\.  **Desarrollo:**  
  *Tecnologías:*
@@ -162,23 +164,5 @@
 * Pasarelas de Pago: Integración con API de PayPal o Stripe.  
   
 
-   Implementación: Explicar cómo se implementan las funcionalidades (código, algoritmos).  
-   Pruebas unitarias: Describir las pruebas realizadas a cada componente.
+  
 
-5\.  Pruebas:  
-   Pruebas de integración: Verificar la interacción entre los diferentes componentes.  
-   Pruebas de usuario: Evaluar la usabilidad y la experiencia del usuario.  
-   Resultados de las pruebas: Presentar los resultados de forma clara y concisa.
-
-6\.  Implementación y despliegue:  
-   Entorno de producción: Describir el entorno donde se ejecuta la aplicación.  
-   Proceso de despliegue: Explicar cómo se despliega la aplicación.
-
-7\.  Mantenimiento:  
-   Plan de mantenimiento: Describir las actividades de mantenimiento (actualizaciones, correcciones de errores).  
-   Documentación: Explicar la documentación generada (manuales de usuario, guías de desarrollo).
-
-8\.  Conclusiones:  
-    Resumen de los logros: Resaltar los principales logros del proyecto.  
-    Lecciones aprendidas: Compartir las lecciones aprendidas durante el desarrollo.  
-   Trabajos futuros: Proponer mejoras o nuevas funcionalidades.
