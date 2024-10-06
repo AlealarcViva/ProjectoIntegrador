@@ -19,11 +19,10 @@
 
 - Sistema de gestión de usuarios: Desarrollar un sistema de gestión de usuarios que permita la creación de cuentas para administradores y clientes.  
 - Catálogo de productos: Crear un catálogo en línea que muestre todos los productos disponibles en el inventario de Pizarras Acrílicas, con
-- descripciones detalladas, imágenes y precios actualizados.  
+descripciones detalladas, imágenes y precios actualizados.  
 - Carrito de compras: Implementar un sistema de carrito de compras que permita a los usuarios agregar productos, modificar cantidades y eliminar
 - artículos antes de finalizar sus pedidos.  
-- Proceso de compra: Desarrollar un proceso de compra fluido y seguro que incluya pasos para seleccionar productos, ingresar información de envío
--  y facturación, y confirmar los pedidos.
+- Proceso de compra: Desarrollar un proceso de compra fluido y seguro que incluya pasos para seleccionar productos, ingresar información de envío y facturación, y confirmar los pedidos.
 
     *Contexto:*  
 > El mercado objetivo de la aplicación web de venta de pizarras está compuesto principalmente por estudiantes, profesores, oficinas, pequeños negocios
@@ -43,7 +42,7 @@ compra de productos especializados, garantizando al mismo tiempo una gestión ef
 
    \- Registro de nuevos usuarios.
 
-   \- Inicio de sesión con autenticación segura (correo y contraseña).
+   \- Inicio de sesión con autenticación (correo y contraseña).
 
    \- Recuperación de contraseña (mediante correo electrónico).
 
@@ -75,8 +74,6 @@ compra de productos especializados, garantizando al mismo tiempo una gestión ef
 
 4. *Procesamiento de Pagos:*
 
-   \- Integración con pasarelas de pago (PayPal, tarjetas de crédito/débito).
-
    \- Confirmación y notificación de pagos exitosos.
 
    \- Generación de facturas electrónicas y recibos.
@@ -94,24 +91,20 @@ compra de productos especializados, garantizando al mismo tiempo una gestión ef
 6. *Panel de Administración:*
 
    \- Gestión de productos (añadir, editar, eliminar).
-
-   \- Gestión de usuarios y roles.
-
-   \- Visualización y gestión de pedidos.
+   
+   \-Gestion de empleados 
 
    \- Generación de reportes (ventas, usuarios, productos más vendidos).
 
    \- Configuración del sitio (política de privacidad, términos y condiciones).
 
-7. *Soporte y Contacto:*
+8. *Soporte y Contacto:*
 
    \- Formulario de contacto.
 
    \- Chat en vivo para soporte.
 
    \- Sección de preguntas frecuentes (FAQ).
-
-   \- Sistema de tickets para incidencias o consultas.
 
 2.2  *Requerimientos no funcionales*
 
@@ -134,8 +127,6 @@ compra de productos especializados, garantizando al mismo tiempo una gestión ef
    \- Diseño responsivo para dispositivos móviles y tabletas.
 
    \- Interfaz de usuario intuitiva y fácil de navegar.
-
-   \- Cumplimiento de estándares de accesibilidad (WCAG 2.1).
 
 4. *Mantenimiento:*
 
