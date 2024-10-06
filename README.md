@@ -171,9 +171,8 @@ compra de productos especializados, garantizando al mismo tiempo una gestión ef
  *Tecnologías:*
 
 * Backend: Java, manejando la lógica de negocio, autenticación y gestión de API.  
-* Frontend: Angular o React para una interfaz moderna, con diseño responsivo.  
 * Base de Datos: MySQL o Oracle para almacenamiento de datos.  
-* Pasarelas de Pago: Integración con API de PayPal o Stripe.  
+
   
 
   
